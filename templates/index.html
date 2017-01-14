@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<!-- 	<div class="row">
+		<div class="col-md-offset-8">
+			<button>
+				<a class="" href="{% url 'about' %}">About Us</a>	
+			</button>
+
+		</div>			
+	</div> -->
+	<div class="clear-fix" style="height: : 30px"></div>
+
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3" align="center"> 
+			<h1 style="padding: 30px;" class="heading">Dystanc is Coming</h1>
+			<img class="img img-responsive" src="{% static 'images/Banner.jpg' %}">
+			<div class="clear-fix" style="height: 20px;"></div>
+			<p>We belive in the most basics of principles.<br>Simple is still better<br>
+			Loyalty still our gold.<br>Integrity is not just for the forest trees.<br>
+			Code should still be clean &amp; understandable.<br><br>And most of all,
+			giving up is for the last.</p>
+		</div>
+	</div>	
+
+{% endblock %}

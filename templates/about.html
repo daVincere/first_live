@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+{% block content %}
+	
+	<div class="clear clear-fix" style="height: 10px;"></div>
+	<div class="row us">
+		<div class="col-md-4 col-md-offset-4">
+			<h3 align="center" style="color: #fff"> /Us </h3>
+		</div>
+	</div>
+	<div class="clear clear-fix" style="height: 30px;"></div>
+	<div class="row">
+		<div class="col-md-4" align="center">
+			<img src="{% static 'images/hasime.jpg' %}" class="img img-responsive border_bold" style="height: 300px; width: 300px;" >
+			<div class="border_bold" style="width: 300px;">
+				<h3>Hasime</h3>
+				<p>Captain Mazdoor</p>
+			</div>		
+		</div>
+		<div class="col-md-4" align="center">
+			<img src="{% static 'images/jasmine.jpg'%}" class="img img-responsive border_bold" style="height: 300px; width: 300px;">
+			<div class="border_bold" style="width: 300px;">
+				<h3>Jasmine Sodhi</h3>
+				<p>Android Panda</p>
+			</div>				
+		</div>
+		<div class="col-md-4" align="center">
+			<img src="{% static 'images/bhagat.jpeg'%}" class="img img-responsive border_bold" style="height: 300px; width: 300px;">
+			<div class="border_bold" style="width: 300px;">
+				<h3>Bhagat Singh</a></h3>
+				<p>Bhanda</p>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
