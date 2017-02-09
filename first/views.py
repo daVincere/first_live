@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
 	return render(request, 'about.html', {})
+
+def default(request):
+	return render(request, 'default.html', {})

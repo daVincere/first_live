@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="row">
+	<div class="col-md-6 col-md-offset-3" align="center">
+		<img class="img img-responsive" id="cog" src="{% static 'images/cogwheel.png'%}" >
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4 col-md-offset-4 border_bold" align="center">
+		<h3>Under Development</h3>
+		<p>We are developing a better version of this site. Please return in few days. </p>
+	</div>
+</div>
+{% endblock %}

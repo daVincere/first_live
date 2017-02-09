@@ -1,63 +1,17 @@
 *{
 	font-family: 'Montserrat', sans-serif;
-	
+	/*border: 1px solid black;*/
+    
 }
-
-/*
-***************************/
-
-.logo{
-	margin-top:30px; 
-	padding: 10px;
-	letter-spacing: 10px;
-	font-size: 40px;
-	font-weight: bold;
-}
-
-.logo a 
-{
-	color:#434343;
-}
-
-.logo a:hover 
-{
-	color : #000000;
-	text-shadow: 1px 1px 0px black;  
-	text-decoration: none;
-}
-
-/* 
-***************************/
-.heading{
-	font-weight: bold;
-}
-
-.page-divider {
-    border-bottom: 1px solid #ddd;
-}
-/*
-**************************/
-
-.banner{
-	/*box-shadow: 5px 5px 3px #ccc;*/
-
-	-webkit-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
--moz-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
-}
-
-
 .navbar
 {
 	background: #F5F5F5;
 	height: 50px;
 }
 
-.readable 
+H1, H2, H3, H4, H5 
 {
-	font-family: 'Lusitana', serif;
 	font-weight: normal;
-	font-size: 15px;
 }
 
 .us
