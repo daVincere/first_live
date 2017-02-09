@@ -5,6 +5,8 @@ old_settings.py
 old_settings
 local.py
 
+staticfiles
+
 #ignore sublime project
 *.sublime-project
 *.sublime-workspace
