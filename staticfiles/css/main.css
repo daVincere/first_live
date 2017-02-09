@@ -22,7 +22,7 @@
 .logo a:hover 
 {
 	color : #000000;
-	text-shadow: 1px 1px 0px black;  
+	text-shadow: 1px 1px 0 black;  
 	text-decoration: none;
 }
 
@@ -38,12 +38,18 @@
 /*
 **************************/
 
+.card {
+	background-color: #FAFAFA;
+}
+
+/*
+**************************/
 .banner{
 	/*box-shadow: 5px 5px 3px #ccc;*/
 
 	-webkit-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
--moz-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
+	-moz-box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
+	box-shadow: 10px 10px 27px 3px rgba(184,178,184,0.81);
 }
 
 

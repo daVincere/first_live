@@ -1,4 +1,9 @@
 v
+liveapp.sublime-project
+.env
+settings/local.py
+old_settings.py
+local.py
 
 #ignore sublime project
 *.sublime-project
