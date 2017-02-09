@@ -4,7 +4,7 @@ liveapp.sublime-project
 old_settings.py
 old_settings
 local.py
-
+static_here
 staticfiles
 
 #ignore sublime project
