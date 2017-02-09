@@ -1,8 +1,8 @@
 v
 liveapp.sublime-project
 .env
-settings/local.py
 old_settings.py
+old_settings
 local.py
 
 #ignore sublime project
